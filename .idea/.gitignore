@@ -1,4 +1,3 @@
 *.xml
 *.iml
-/target
 !README.md
