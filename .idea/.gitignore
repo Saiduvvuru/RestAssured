@@ -1,0 +1,5 @@
+*.xml
+*.iml
+/target
+.md
+!README.md
