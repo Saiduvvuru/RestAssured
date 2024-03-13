@@ -27,6 +27,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy:1.14.11" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:2.0.9" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:2.0.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.wiremock:wiremock-standalone:3.4.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.rest-assured:rest-assured:5.4.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.groovy:groovy:4.0.16" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.groovy:groovy-xml:4.0.16" level="project" />

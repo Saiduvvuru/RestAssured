@@ -15,7 +15,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class ReqresTests extends CommonMethods {
 
-    private static final Logger LOG = Logger.getLogger(ReqresTests.class);
+ //   private static final Logger LOG = Logger.getLogger(ReqresTests.class);
 
     private static final int EXPECTED_SUCCESS_STATUS_CODE = 200;
     private static final int EXPECTED_CREATED_STATUS_CODE = 201;

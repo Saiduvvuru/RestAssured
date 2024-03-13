@@ -20,7 +20,7 @@ import java.lang.reflect.Method;
 
 public class BaseTest {
 
-    private static final Logger LOG = Logger.getLogger(BaseTest.class);
+  //  private static final Logger LOG = Logger.getLogger(BaseTest.class);
 
     public static ReportsUtility reportsUtility = new ReportsUtility();
     public static PropertiesUtility props;

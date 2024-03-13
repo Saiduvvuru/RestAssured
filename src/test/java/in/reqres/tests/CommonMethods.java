@@ -22,7 +22,7 @@ import java.io.IOException;
 public class CommonMethods extends BaseTest {
 
     //    public static String propertiesFile = "application.properties";
-    private static final Logger LOG = Logger.getLogger(CommonMethods.class);
+  //  private static final Logger LOG = Logger.getLogger(CommonMethods.class);
     RequestSpecification requestSpecification;
 
     @BeforeMethod
