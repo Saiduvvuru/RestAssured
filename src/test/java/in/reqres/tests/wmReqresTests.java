@@ -39,7 +39,8 @@ public class wmReqresTests extends CommonMethods {
         configureFor("localhost", 8080);
         wiremockServer.start();
         //Providing the targetURL to tell where to record the data from
-        //   wiremockServer.startRecording("https://reqres.in/api/users");
+        // We only record data once, and use the recorded data as stubs
+        //  wiremockServer.startRecording("https://reqres.in/api/users");
 
         Header contentHeader = new Header("Content-Type", "application/json");
         requestSpecification = RestAssured.given().log().all().header(contentHeader);
@@ -57,7 +58,7 @@ public class wmReqresTests extends CommonMethods {
         // Verification is as usual
         verifyStatusCode(response, 200, response.statusCode());
 
-        //  wiremockServer.stopRecording();
+      //   wiremockServer.stopRecording();
         wiremockServer.stop();
 
 
